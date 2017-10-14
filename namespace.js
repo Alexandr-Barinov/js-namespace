@@ -5,7 +5,7 @@ var BARI0053 = {
     div.className = "box";
     div.textContent = "bari0053";
     document.getElementById("boxes").appendChild("box");
-        
+    console.log(yes);
     };
 
 };

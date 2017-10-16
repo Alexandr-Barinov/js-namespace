@@ -1,5 +1,5 @@
 var BARI0053 = {
-    
+
     init: function(){
 
     var box = document.createElement("div");
@@ -7,17 +7,18 @@ var BARI0053 = {
     box.textContent = "bari0053";
     document.getElementById("boxes").appendChild(box);
 
-    box.addEventListener("mouseover", mouseover);
-    box.addEventListener("mouseout", mouseout);
-        
-    },
-    
-    mouseover: function(ev){
-    ev.currentTarget.classList.toggle("highlight");
+    box.addEventListener("mouseover", BARI0053.mouse);
+    box.addEventListener("mouseout", BARI0053.mouse);
+    box.addEventListener("click", BARI0053.click) 
     },
 
-    mouseout: function(ev){
+    mouse: function(ev){
     ev.currentTarget.classList.toggle("highlight");
     },
         
+    click: function(ev){
+    ev.currentTarget.style.backgroundColor = "white";
+    ev.currentTarget.style.borderColor = "white";
+    },
+    
     };

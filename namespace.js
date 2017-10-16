@@ -11,11 +11,11 @@ var BARI0053 = {
     div.addEventListener("mouseout", mouseout);
     },
     
-    function mouseover(ev){
+    mouseover: function(ev){
     ev.currentTarget.classList.toggle("highlight");
     },
 
-    function mouseout(ev){
+    mouseout: function(ev){
     ev.currentTarget.classList.toggle("highlight");
     },
         

@@ -9,14 +9,14 @@ var BARI0053 = {
 
     div.addEventListener("mouseover", mouseover);
     div.addEventListener("mouseout", mouseout);
-    };
+    },
     
     function mouseover(ev){
     ev.currentTarget.classList.toggle("highlight");
-    };
+    },
 
     function mouseout(ev){
     ev.currentTarget.classList.toggle("highlight");
-    };
+    },
         
     };

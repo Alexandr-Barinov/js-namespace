@@ -5,7 +5,7 @@ var BARI0053 = {
     var box = document.createElement("div");
     box.className = "box";
     box.textContent = "bari0053";
-    document.getElementById("boxes").appendChild(box);
+    document.getElementById("#boxes").appendChild(box);
 
     box.addEventListener("mouseover", BARI0053.mouseover);
     box.addEventListener("mouseout", BARI0053.mouseout);

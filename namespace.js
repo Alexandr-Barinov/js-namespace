@@ -3,7 +3,7 @@ var BARI0053 = {
     init: function(){
 
     var box = document.createElement("div");
-    box.classList.add("box");
+    box.className = "box";
     box.textContent = "bari0053";
     document.getElementById("boxes").appendChild(box);
 

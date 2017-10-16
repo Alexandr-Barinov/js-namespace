@@ -9,7 +9,6 @@ var BARI0053 = {
 
     div.addEventListener("mouseover", mouseover);
     div.addEventListener("mouseout", mouseout);
-    div.addEventListener("click", click);
     };
     
     function mouseover(ev){
